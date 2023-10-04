@@ -1,0 +1,1041 @@
+/* background-color: #131921; */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: #131921;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.src {
+    height: 50px;
+    width: 90px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.logo {
+    border: 1px solid transparent;
+    height: 60px;
+    margin: 3px 7px;
+    width: 110px;
+}
+
+.logo:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+.box {
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 3px;
+    height: 60px;
+    width: 95px;
+    border: 1px solid transparent;
+    display: inline-block;
+}
+
+.box:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+i {
+    position: relative;
+    top: 31px;
+    left: -67px;
+}
+
+.deliver {
+    margin-bottom: 20px;
+    display: inline;
+    font-size: 14px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+    color: #CCCCCC;
+}
+
+.box h4 {
+    margin-top: 13px;
+    position: relative;
+    right: 11px;
+    font-size: 16px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+
+select {
+    height: 42px;
+    width: 52px;
+    text-align: center;
+    margin-left: 30px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    background-color: #f3f3f3;
+    border-right-color: #ccc8c8;
+}
+
+.h {
+    width: 618px;
+    height: 42px;
+    border: none;
+    font-size: 1rem;
+    border: none;
+    padding-left: 10px;
+}
+
+.magnify i {
+    color: white;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    background-color: rgb(255, 153, 0);
+    height: 42px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 1.3rem;
+
+}
+
+.magnify i:hover {
+    background-color: rgb(224, 104, 5);
+}
+
+.word {
+    color: white;
+    font: 12px Arial, sans-serif "Amazon Ember";
+    margin-left: 15px;
+    margin-top: 0px;
+    border: 1.5px solid transparent;
+    padding: 0px 9px 10px;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 10%;
+}
+
+.word:hover {
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+.word p {
+    font-size: 13px;
+    margin-top: 15px;
+    height: fit-content;
+    font-family: Arial, sans-serif "Amazon Ember";
+    margin-right: 55px;
+}
+
+.spn {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    right: 218px;
+    top: 38px;
+    height: fit-content;
+    position: absolute;
+}
+
+.spn i {
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 1px;
+    font-size: 15px;
+}
+
+.return {
+    color: white;
+    font: 14px Arial, sans-serif "Amazon Ember";
+    margin-top: 3px;
+    border: 1.5px solid transparent;
+    height: 62px;
+    width: 95px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.return:hover {
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+.par {
+    font-size: 12px;
+    margin-top: 12px;
+    margin-right: 20px;
+    position: relative;
+    bottom: -2.9px;
+}
+
+.return h1 {
+    font-size: 14px;
+    position: relative;
+    bottom: -6px;
+    letter-spacing: 0.1px;
+}
+
+.cart {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1px;
+    margin-top: 3px;
+    border: 1.5px solid transparent;
+    height: 62px;
+    width: 95px;
+}
+
+.cart:hover {
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+.cart h1 {
+    font-size: 15px;
+    font-family: Arial, sans-serif "Amazon Ember";
+}
+
+.cart i {
+    font-size: 30px;
+    position: inherit;
+}
+
+.menu {
+    background-color: #232F3E;
+    height: 39px;
+    width: 100%px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: white;
+}
+
+.icon {
+    border: 1px solid transparent;
+    width: 62px;
+    height: 92.4%;
+    padding-left: 8px 9px;
+    margin-left: 12px;
+}
+
+.icon:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.icon i {
+    margin-left: 80px;
+    font-size: 20px;
+    position: relative;
+    top: 8.2px;
+
+}
+
+.heading {
+    position: absolute;
+    left: 41px;
+    font-weight: bold;
+    font-family: Arial, sans-serif "Amazon Ember";
+    font-size: 15px;
+    padding: 0px 0px 0px 5px;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1px;
+    font: Arial, sans-serif "Amazon Ember";
+    cursor: pointer;
+}
+
+.opt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid transparent;
+    height: 37px;
+    width: 100px;
+    margin-left: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.opt:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#today {
+    width: 100px;
+}
+
+#sell {
+    width: 50px;
+}
+
+#hlo {
+    width: 140px;
+}
+
+#reg {
+    width: 70px;
+}
+
+#gift {
+    width: 85px;
+}
+
+.image {
+    background-image: url("https://m.media-amazon.com/images/I/71U-Q+N7PXL._SX3000_.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    /* background-color: #E3E6E6;*/
+}
+
+/* main {
+    background-color: #e9e1e14a;
+} */
+
+/* making boxes*/
+body {
+    background-color: rgba(175, 171, 171, 0.315);
+}
+
+.boxes {
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -300px;
+    height: auto;
+}
+
+
+
+.boxa {
+    height: 400px;
+    width: 300px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 1px grey;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 9px;
+    padding-left: 15px;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+
+.srcs {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    position: absolute;
+
+}
+
+.more {
+    margin-top: 365px;
+    position: absolute;
+    left: 60px;
+    font-family: Arial, sans-serif "Amazon Ember";
+}
+
+.more:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*another table*/
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 350px;
+    margin-left: 20px;
+    padding-left: 0px;
+    letter-spacing: 0.5px;
+    font-size: 22px;
+}
+
+.sr {
+    height: 300px;
+    width: 265px;
+    margin-top: 1px;
+    margin-left: 18px;
+    position: absolute;
+}
+
+.mor {
+    margin-top: 350px;
+    position: absolute;
+    left: 365px;
+    font-family: Arial, sans-serif "Amazon Ember";
+}
+
+.mor:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* another box */
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    padding-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 22px;
+}
+
+.make {
+    height: 300px;
+    width: 265px;
+    margin-top: 55px;
+    margin-left: 18px;
+    position: absolute;
+}
+
+.mo {
+    margin-top: 366px;
+    position: absolute;
+    left: 690px;
+    font-family: Arial, sans-serif "Amazon Ember";
+}
+
+.mo:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Abox {
+    height: 150px;
+    width: 312px;
+    border: 2px solid red;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    box-shadow: 2px 5px 5px 1px grey;
+    background-color: white;
+    font-size: 31px;
+}
+
+h6 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bot {
+    height: 30px;
+    width: 270px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 208, 0, 0.87);
+    border-color: transparent;
+    font-family: Arial, sans-serif "Amazon Ember";
+    color: black;
+}
+
+.bot:hover {
+    background-color: rgba(241, 180, 11, 0.986);
+}
+
+.ebox img {
+    position: absolute;
+    right: 41px;
+    top: 590px;
+
+    max-height: 220px;
+    width: 316px;
+}
+
+h5 {
+    position: absolute;
+    margin-left: 40px;
+    font-family: Arial, sans-serif "Amazon Ember";
+    font-size: 21px;
+    margin-top: 1.8vh;
+}
+
+.last {
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    overflow-x: scroll;
+    background-color: whitesmoke;
+    margin-left: 22px;
+    border-radius: 5px;
+}
+
+.bx {
+    height: 250px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    /* box-shadow: 2px 5px 5px 1px grey; */
+    /* background-color: white; */
+    padding-left: 175px;
+    margin: 3px;
+    margin-top: 52px;
+    background-repeat: no-repeat;
+}
+
+.col {
+    background-image: url('https://m.media-amazon.com/images/I/61CqEb2sJ+L._AC_SY200_.jpg');
+
+}
+
+.co {
+    background-image: url('https://m.media-amazon.com/images/I/71TYwaGsuIL._AC_SY200_.jpg');
+}
+
+.cl {
+    background-image: url('https://m.media-amazon.com/images/I/61G2efYUsaL._AC_SY200_.jpg');
+}
+
+.ol {
+    background-image: url('https://m.media-amazon.com/images/I/918MziXVpLL._AC_SY200_.jpg');
+}
+
+.boo {
+    background-image: url('https://m.media-amazon.com/images/I/51qty4PpMKL._AC_SY200_.jpg');
+}
+
+.ook {
+    background-image: url('https://m.media-amazon.com/images/I/710Nm2lABKL._AC_SY200_.jpg');
+}
+
+.las {
+    background-image: url('https://m.media-amazon.com/images/I/61CI-tLiiJL._AC_SY200_.jpg');
+}
+
+.dark {
+    background-image: url('https://m.media-amazon.com/images/I/61IHz9veBUL._AC_SY200_.jpg');
+}
+
+.ool {
+    background-image: url('https://m.media-amazon.com/images/I/61FbHtx4IzL._AC_SY200_.jpg');
+}
+
+.mol {
+    background-image: url('https://m.media-amazon.com/images/I/71GMS90bHOL._AC_SY200_.jpg');
+}
+
+.container-new {
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+    width: 1330px;
+    position: relative;
+    bottom: 0px;
+    height: 600px;
+}
+
+.fitness {
+    height: 400px;
+    width: 300px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 1px grey;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+}
+
+p10 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 9px;
+    padding-left: 15px;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+
+.src-f {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.moress {
+    margin-top: 365px;
+    position: absolute;
+    font-family: Arial, sans-serif "Amazon Ember";
+    margin-left: 30px;
+}
+
+.moress:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.spring {
+    height: 400px;
+    width: 300px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 1px grey;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+}
+
+.src-s {
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 25px;
+}
+
+
+.moress-1 {
+    margin-top: 365px;
+    position: absolute;
+    font-family: Arial, sans-serif "Amazon Ember";
+    margin-left: 23px;
+}
+
+.moress-1:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.src-w {
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 25px;
+}
+
+.moress-2 {
+    margin-top: 365px;
+    position: absolute;
+    font-family: Arial, sans-serif "Amazon Ember";
+    margin-left: 23px;
+}
+
+.moress-2:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.src-d {
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 25px;
+}
+
+.moress-4 {
+    margin-top: 365px;
+    position: absolute;
+    font-family: Arial, sans-serif "Amazon Ember";
+    margin-left: 23px;
+}
+
+.moress-4:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.another_box {
+    height: 145px;
+    padding: 0px 12px;
+    border: 1px solid rgb(214, 207, 207);
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.box_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    position: absolute;
+    top: 45px;
+    font-family: arial, sans-serif black;
+    font-size: 15px;
+}
+
+.in {
+    position: absolute;
+    top: 65px;
+    width: 250px;
+    height: 33px;
+    background-color: rgba(255, 174, 0, 0.863);
+    border-radius: 3px;
+    font: 12px arial, sans-serif black;
+    border: none;
+}
+
+.in:hover {
+    transform: scale(0.99);
+}
+
+p22 {
+    position: absolute;
+    top: 100px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(58, 155, 58, 0.925);
+}
+
+a:hover {
+    color: rgb(115, 202, 231);
+    transform: scale(0.99);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #394f69;
+    height: 55px;
+    position: relative;
+    bottom: 80px;
+}
+
+.top:hover {
+    background-color: rgba(37, 52, 78, 0.747);
+}
+
+.back a {
+    color: white;
+}
+
+.big_box {
+    height: 455px;
+    background-color: #232F3E;
+    margin-top: -80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.small {
+    position: relative;
+    left: 100px;
+    top: 35px;
+    height: fit-content;
+}
+
+.Get {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Arial, sans-serif "Amazon Ember";
+}
+
+.six {
+    margin: 10px 15px 20px 25px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.row {
+    padding: 3px;
+    margin: 1px 10px 10px -30px;
+    list-style: none;
+    color: rgb(199, 195, 195);
+    cursor: pointer;
+}
+
+.row:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(0.99);
+}
+
+.money {
+    position: relative;
+    left: 60px;
+    top: 35px;
+    height: fit-content;
+}
+
+.Us {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: Arial, sans-serif "Amazon Ember";
+}
+
+.sell {
+    margin: 10px 15px 20px 25px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.product {
+    padding: 3px;
+    margin: 1px 10px 10px -30px;
+    list-style: none;
+    color: rgb(199, 195, 195);
+    cursor: pointer;
+}
+
+.product:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(0.99);
+}
+
+.payment {
+    position: relative;
+    left: 40px;
+    top: 35px;
+    height: fit-content;
+}
+
+.products {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Arial, sans-serif "Amazon Ember";
+}
+
+.card {
+    margin: 10px 15px 20px 25px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.Business {
+    padding: 3px;
+    margin: 1px 10px 10px -30px;
+    list-style: none;
+    color: rgb(199, 195, 195);
+    cursor: pointer;
+}
+
+.Business:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(0.99);
+}
+
+.help {
+    position: relative;
+    left: 40px;
+    top: 35px;
+    height: fit-content;
+}
+
+.you {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Arial, sans-serif "Amazon Ember";
+}
+
+.account {
+    margin: 10px 15px 20px 25px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.order {
+    padding: 3px;
+    margin: 1px 10px 10px -30px;
+    list-style: none;
+    color: rgb(199, 195, 195);
+    cursor: pointer;
+}
+
+.order:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(0.99);
+}
+
+.language {
+    border: 1px solid #dddddd33;
+    border-bottom-color: transparent;
+    height: 120px;
+    display: inline-block;
+    width: 1347px;
+    position: absolute;
+    margin-top: 332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.again_amg {
+    width: 100px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.English {
+    padding: 6px 8px 6px 8px;
+    margin: 0px 4px 8px 0px;
+    font: 13px Arial, sans-serif "Amazon Ember";
+    height: 38px;
+    width: 126px;
+    background-color: transparent;
+    border: 1px solid #747f8ae1;
+    color: whitesmoke;
+    border-radius: 4px;
+
+}
+
+p32 {
+    letter-spacing: 0.5px;
+}
+
+#global {
+    color: #acbecfe1;
+    position: relative;
+    top: 0px;
+    left: -70px;
+    height: 15px;
+    width: 15px;
+}
+
+#arrow {
+    color: #acbecfe1;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 12px;
+    letter-spacing: -2vh;
+}
+
+.dlr {
+    padding: 6px 8px 6px 8px;
+    margin: 0px 4px 8px 0px;
+    font: 13px Arial, sans-serif "Amazon Ember" 8.7px;
+    height: 39px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #747f8ae1;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+p31 {
+    position: relative;
+    left: 12px;
+    letter-spacing: 0.5px;
+    color: whitesmoke;
+}
+
+#dollor {
+    color: white;
+    position: relative;
+    top: 0px;
+    left: -110px;
+    height: 15px;
+    width: 15px;
+    font-size: 13px;
+
+}
+
+.Amer {
+    padding: 6px 8px 6px 8px;
+    margin: 0px 4px 8px 0px;
+    font: 13px Arial, sans-serif "Amazon Ember" 8.7px;
+    height: 37px;
+    width: 141px;
+    background-color: transparent;
+    border: 1px solid #747f8ae1;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#americ {
+    color: whitesmoke;
+    position: relative;
+    top: 0px;
+    left: -80px;
+    height: 15px;
+    width: 15px;
+    font-size: 13px;
+    font-size: 16px;
+}
+
+p33 {
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif "Amazon Ember";
+    font-size: 17px;
+}
+
+.copyright{
+    background-color: #131921;
+    color: #9b9898fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.con{
+    font-size: 13px;
+    margin: 10px;
+}
+.con:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wright{
+  position: absolute;
+ margin-top: 39px;
+ font-size: 13px;
+
+}
